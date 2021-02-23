@@ -1,0 +1,7 @@
+Pergunta: Escreva duas diferenças simples entre Testes Funcionais e Testes de Unidade:
+
+Resposta: 
+
+Testes funcionais são escritos com base apenas na interface do sistema sob testes, sem o conhecimento do código. É um teste caixa-preta. Eles podem testar mais do que uma unidade.
+
+Testes de unidade podem ser testes caixa-branca ou caixa-preta. Eles testam apenas uma unidade.
