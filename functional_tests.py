@@ -44,8 +44,6 @@ class NewVisitorTest(unittest.TestCase):
         # A página atualiza novamente, e agora mostra ambos os itens na sua lista
         self.check_for_row_in_list_table('1: Estudar testes funcionais')
         self.check_for_row_in_list_table('2: Estudar testes de unidade')
-        self.assertIn('1: Estudar testes funcionais', [row.text for row in rows])
-        self.assertIn('2: Estudar testes de unidade', [row.text for row in rows])
 
         # Maria se pergunta se o site vai lembrar da sua lista. Então, ela verifica que
         # o site gerou uma URL única para ela -- existe uma explicação sobre essa feature
